@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link, Outlet, Route, Router, Routes, unstable_HistoryRouter } from 'react-router-dom'
-import { Breadcrumb, Button, Col, Divider, Row } from 'antd'
+import { Link, Outlet } from 'react-router-dom'
+import {  Button, Col, Divider, Row } from 'antd'
 import { fetchUserData } from './secondTask'
 
 export default function Home() {

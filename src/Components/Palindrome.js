@@ -1,4 +1,4 @@
-import { Input, Tooltip } from 'antd'
+import { Input} from 'antd'
 import React, { useState } from 'react'
 
 export default function Palindrome() {
@@ -15,7 +15,7 @@ export default function Palindrome() {
         var result = true;
 
         for(let i= 0;i<hflen;i++ ){
-            if(removeSpace[i] != removeSpace[length]){
+            if(removeSpace[i] !== removeSpace[length]){
                 result=false;
                 break;
             }

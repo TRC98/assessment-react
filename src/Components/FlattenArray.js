@@ -1,7 +1,6 @@
 import { Button } from 'antd';
 import TextArea from 'antd/es/input/TextArea';
 import React, { useState } from 'react'
-import { fetchUserData } from './secondTask';
 
 export default function FlattenArray() {
     const [str,setStr] = useState();
