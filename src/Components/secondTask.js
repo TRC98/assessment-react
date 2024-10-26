@@ -27,7 +27,7 @@ function getUser(id, callback) {
 }
  
 // Example usage
-let userIds = [1, 2, 3, 4, 5];
+//let userIds = [1, 2, 3, 4, 5];
 //fetchUserData(userIds);
 
 export{fetchUserData}
